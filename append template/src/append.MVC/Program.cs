@@ -4,11 +4,13 @@ using append.data;
 using append.business;
 using append.core.Models;
 using Microsoft.AspNetCore.Identity;
+using append.MVC.ViewServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<LayoutService>();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer("server=DESKTOP-4T5RTRO;database=appendexam;Trusted_Connection=True;");

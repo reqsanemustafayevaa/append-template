@@ -17,5 +17,6 @@ namespace append.data.DAL
         }
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

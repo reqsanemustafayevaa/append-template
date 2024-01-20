@@ -1,0 +1,37 @@
+﻿@model List<Setting>
+@{
+    int counter = 0;
+}
+<div class="container">
+   
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Value</th>
+                <th scope="col">Key</th>
+
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var setting in Model)
+            {
+                counter++;
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td>@setting.Value</td>
+                    <td>@setting.Key</td>
+                  
+                    <td>
+                        <a asp-action="Update" asp-controller="Setting" asp-route-id="@setting.Id" class="btn btn-success">Update</a>
+                       
+                    </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

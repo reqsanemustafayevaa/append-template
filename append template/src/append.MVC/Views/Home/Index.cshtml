@@ -2,6 +2,10 @@
     ViewData["Title"] = "Home Page";
 }
 @model List<TeamMember>
+@inject LayoutService service
+@{
+    List<Setting> settings = await service.GetSettings();
+}
 
 <main id="main">
 
@@ -866,8 +870,8 @@
                         <div class="col-md-6">
                             <div class="info-item" data-aos="fade" data-aos-delay="200">
                                 <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
-                                <p>A108 Adam Street</p>
+                                <h3>Adress</h3>
+                                <p>@settings.FirstOrDefault(x=>x.Key=="Adress").Value</p>
                                 <p>New York, NY 535022</p>
                             </div>
                         </div><!-- End Info Item -->
@@ -876,7 +880,7 @@
                             <div class="info-item" data-aos="fade" data-aos-delay="300">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>@settings.FirstOrDefault(x=>x.Key=="Call-Us").Value</p>
                                 <p>+1 6678 254445 41</p>
                             </div>
                         </div><!-- End Info Item -->
@@ -885,7 +889,7 @@
                             <div class="info-item" data-aos="fade" data-aos-delay="400">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>@settings.FirstOrDefault(x=>x.Key=="Email-Us").Value</p>
                                 <p>contact@example.com</p>
                             </div>
                         </div><!-- End Info Item -->
@@ -894,7 +898,7 @@
                             <div class="info-item" data-aos="fade" data-aos-delay="500">
                                 <i class="bi bi-clock"></i>
                                 <h3>Open Hours</h3>
-                                <p>Monday - Friday</p>
+                                <p>@settings.FirstOrDefault(x=>x.Key=="Open-hours").Value</p>
                                 <p>9:00AM - 05:00PM</p>
                             </div>
                         </div><!-- End Info Item -->

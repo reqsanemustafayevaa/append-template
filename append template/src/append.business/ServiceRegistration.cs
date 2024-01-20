@@ -15,6 +15,7 @@ namespace append.business
         {
             services.AddScoped<ITeamMemberService, TeamMemberService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ISettingService, SettingService>();
         }
 
     }

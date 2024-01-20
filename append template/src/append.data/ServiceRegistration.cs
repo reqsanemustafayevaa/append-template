@@ -14,6 +14,7 @@ namespace append.data
         public static void AddRepository(this IServiceCollection services)
         {
             services.AddScoped<ITeamMemberRepository, TeamMemberRepository>();
+            services.AddScoped<ISettingRepository, SettingRepository>();
         }
     }
 }
