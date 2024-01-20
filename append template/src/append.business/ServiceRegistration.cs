@@ -14,6 +14,7 @@ namespace append.business
         public static void AddService(this IServiceCollection services)
         {
             services.AddScoped<ITeamMemberService, TeamMemberService>();
+            services.AddScoped<IAuthService, AuthService>();
         }
 
     }

@@ -1,10 +1,12 @@
 ﻿using append.business.Exceptions;
 using append.business.Services.Interfaces;
 using append.core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace append.MVC.Areas.manage.Controllers
 {
+    [Authorize(Roles = "SuperAdmin")]
     [Area("manage")]
     public class TeamController : Controller
     {
