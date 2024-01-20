@@ -1,0 +1,17 @@
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.data.deps.json
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.data.dll
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.data.pdb
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.AssemblyInfoInputs.cache
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.AssemblyInfo.cs
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.csproj.CoreCompileInputs.cache
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.dll
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\refint\append.data.dll
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.pdb
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\ref\append.data.dll
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.core.dll
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.core.pdb
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.csproj.AssemblyReference.cache
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.csproj.CopyComplete
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\bin\Debug\net6.0\append.data.runtimeconfig.json
+C:\Users\User\Masaüstü\append-template\append template\src\append.data\obj\Debug\net6.0\append.data.genruntimeconfig.cache
